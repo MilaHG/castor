@@ -1,0 +1,20 @@
+<h1>Pages#home</h1>
+<p>Find me in app/views/pages/home.html.erb</p>
+hello mila
+<p>une variable du controlleur : <%= @titi %></p>
+
+<h2>Conditions</h2>
+
+  <% if @titi == 45 %>
+    Super @titi vaut 5
+  <% else %>
+    Dommage ne vaut pas 5
+  <% end %>
+
+<h2>Boucles</h2>
+
+  <% @variable.times do |i| %>
+    <p>Hello <%= i %></p>
+  <% end %>
+
+<p><a href="/contact">Lien vers la page Contact</a></p>
